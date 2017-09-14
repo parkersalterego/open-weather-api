@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css);
+
+body {
+  background: #FFF;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+button {
+  margin-left: 25%;
+  border: none;
+  background: #DDD;
+  color: #444;
+  padding: 15px 10px;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+
+button:hover {
+  background: #C9C9C9;
+}
+
+.weather-icon-container {
+	font-family: weathericons;
+	font-size: 80px;
+	display: block;
+	text-align: center;
+}
+
+.container {
+  height: 100%;
+}
+
+.app-container {
+  width: 100%;
+}
+
+.weather-machine {
+  width: 50%;
+  margin: 100px auto 50px;
+  background: #F9F9F9;
+  border: 1px solid #DDD;
+}
+
+.temperature-gauge {
+  width: 50%;
+  height: 200px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+}
+
+.meta-data {
+  width: 50%;
+  background: #B2C0CD;
+  height: 200px;
+  display: inline-block;
+  text-align: center;
+  padding: 30px;
+}
+
+input {
+  height: 55px;
+  border: 2px solid #CCC;
+  padding: 5px;
+  outline:thin;
+  background: #f9f9f9;
+}
+
+input:focus {
+  background: white;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+}
